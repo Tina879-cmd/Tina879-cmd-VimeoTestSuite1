@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vimeo Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.vimeo.qa.ExtentReportListener.ExtentReportListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Vimeo Test Cases(failed)">
+    <classes>
+      <class name="com.vimeo.qa.testCases.ChannelTest">
+        <methods>
+          <include name="verifyTotalData"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vimeo.qa.testCases.ChannelTest -->
+      <class name="com.vimeo.qa.testCases.GroupTest">
+        <methods>
+          <include name="verifyTotalData"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.vimeo.qa.testCases.GroupTest -->
+      <class name="com.vimeo.qa.testCases.OnDemandTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyTotalData"/>
+        </methods>
+      </class> <!-- com.vimeo.qa.testCases.OnDemandTest -->
+      <class name="com.vimeo.qa.testCases.PeopleTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyTotalData"/>
+        </methods>
+      </class> <!-- com.vimeo.qa.testCases.PeopleTest -->
+      <class name="com.vimeo.qa.testCases.SearchPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyTotalData"/>
+        </methods>
+      </class> <!-- com.vimeo.qa.testCases.SearchPageTest -->
+    </classes>
+  </test> <!-- Vimeo Test Cases(failed) -->
+</suite> <!-- Failed suite [Vimeo Test Suite] -->

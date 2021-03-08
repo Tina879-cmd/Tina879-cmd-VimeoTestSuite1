@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Vimeo Test Suite" >
+
+   <listeners>
+       <listener class-name="com.vimeo.qa.ExtentReportListener.ExtentReportListenerTest"></listener>
+     
+       
+    </listeners>
+
+  <test name="Vimeo Test Cases" >
+    <classes>
+       <class name="com.vimeo.qa.testCases.LoginPageTest"></class>
+       <class name="com.vimeo.qa.testCases.HomePageTest"></class>
+       <class name="com.vimeo.qa.testCases.SearchPageTest"></class>
+       <class name="com.vimeo.qa.testCases.OnDemandTest"></class>
+       <class name="com.vimeo.qa.testCases.PeopleTest"></class>
+       <class name="com.vimeo.qa.testCases.ChannelTest"></class>
+       <class name="com.vimeo.qa.testCases.GroupTest"></class>
+       
+    </classes>
+  </test>
+ 
+  
+</suite>
